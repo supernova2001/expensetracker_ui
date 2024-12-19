@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: "Funnel Sans";
+}
+.items {
+    display: flex;
+    padding-left: 600px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: "Funnel Sans";
+}
+.items p {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.items .login_system {
+    margin-left: 450px;
+}
+
+.about {
+    background: white; /* Maintain a white background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.introduction .introduction_title {
+    /* display: table;
+    margin: auto; */
+    color: #21839A;
+    font-family: "Funnel Sans";
+    text-align: center;
+}
+
+.information {
+  padding: 20px;
+  overflow: hidden;
+  margin: 0;
+  height: 300px;
+  color: #21839A;
+  margin-top: 50px;
+}
+.features {
+  background-color: #21839A;
+  padding: 20px;
+  overflow: hidden;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: -320px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.about_card {
+    background-color: #21839A;
+  padding: 20px;
+  overflow: hidden;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  height: 300px;
+  border-radius: 10px;
+}
+.login-container {
+  background: white; /* Maintain a white background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #21839A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #1d6f80;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+}
+
+.register-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.register-container {
+  background: white; /* Maintain a white background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 350px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-register {
+  width: 70%;
+  padding: 10px;
+  background-color: #21839A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #1d6f80;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.dashboard-home {
+  padding-left: 5px;
+  padding-right: 5px;
+}

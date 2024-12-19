@@ -1,0 +1,55 @@
+.dashboard-home {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.dashboard-title {
+    display: table;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.dashboard-main-title {
+    padding-top: 30px;
+    background-color: #21839A;
+    width: 931px;
+    color: white;
+    padding-left: 480px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.add-expense-button {
+    background-color: #21839A;
+    border: none;
+    color: white;
+    width: 220px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 110px;
+
+}
+.upload-document {
+    background-color: #21839A;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 30px;
+}
+.upload-box {
+    border: black 1px solid;
+    width: 383px;
+    display: table;
+    margin: auto;
+}
+.summary-box {
+    display: table;
+    margin: auto;
+}
+.summary-loader {
+    display: table;
+    margin: auto;
+}
+.manual-dashboard-title {
+    display: table;
+    margin: auto;
+    margin-top: 40px;
+}

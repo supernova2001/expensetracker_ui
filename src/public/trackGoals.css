@@ -1,0 +1,123 @@
+.roadmap {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0; /* Reduce margin */
+  }
+  
+  .roadmap-line {
+    position: absolute;
+    top: 50%; /* Align line vertically in the middle of the dots */
+    left: calc(12px + 10px); /* Start after the first dot (dot size + gap) */
+    right: calc(12px + 10px); /* End before the second dot */
+    height: 1px;
+    background-color: gray;
+    z-index: 1;
+  }
+  
+  .roadmap-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2; /* Ensure dots and amounts appear above the line */
+  }
+  
+  .roadmap-item .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .roadmap-item.spent .dot {
+    background-color: green;
+  }
+  
+  .roadmap-item.goal .dot {
+    background-color: blue;
+  }
+  
+  .roadmap-item.spent.exceeded .dot {
+    background-color: red;
+  }
+  
+  .roadmap-item .amount {
+    font-size: 14px;
+    margin-bottom: 5px; /* Adjust spacing between amount text and dot */
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .month-group-dots {
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }  
+  
+  .track-goals-container h2 {
+    padding-top: 30px;
+    text-align: center;
+  }  
+
+  .message {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  .ai-info-icon {
+    margin-left: 1250px;
+    margin-top: 40px;
+    color: white;
+    background-color: #21839A;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .ai-suggestions {
+    background-color: #f7f7f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    display: table;
+    margin: auto;
+}
+  
+  .ai-suggestions h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .ai-suggestions p {
+    color: #353740;
+    font-size: 1em;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  
+  .ai-info-icon {
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .ai-info-icon:hover {
+    color: black;
+  }
+  .coins-display {
+    margin-right: 50px;
+    color: #21839A;
+  }
+  
