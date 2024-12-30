@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Expeasy: AI powered Expense Tracker
+Expeasy is a simple, easy to use expense tracker that helps users in achieving personal financial goals by effectively tracking and managing spendings. This platform comes with AI driven expense extraction, where expenses are automatically extracted from documents, invoices and bills using LangChain RAG model. Also, OpenAI is levaraged to provide users with suggestions around their monthly and yearly expenses. Below is the summary of features that are developed and are in progress:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developed Features:
 
-## Available Scripts
+1. Dashboard to upload invoice/bill documents to extract expenses. The model basically extracts the total amount spent, the company or brand to which the amount is paid, mode of payment and date of spending.
+2. Track Expenses module where the user gets insights around the monthly and yearly expenses comparing each month's and each year's expenses. It also comes with an option to ask questions around the expenses uploaded or added, to make it interactive and easy for the user to get to know about his/her spendings.
+3. Financial Goals module where the user can set monthly spending goal and check if his/her spendings for a particular month are below the goal/limit set or are going beyond the limit.
+4. Friends Zone: This module helps a user in managing group expenses. The user can send a request to a person who is available on the platform and start managing group expenses by creating a group.
 
-In the project directory, you can run:
+Features under Development:
 
-### `npm start`
+1. In the financial goals module, there will be a feature where the user earns points/coins based on the difference between the monthly spendings and goal set. If the difference is high, we can say that the user is well disciplined in terms of his spendings. The user can use these coins at the end of each month to unlock rewards and avail coupons with partnered brands.
+2. Friends Zone group spendings module is yet to be completed.
+3. A Financial assistant chatbot levaraging artificial intelligence and machine learning that helps the user in getting financial assistance and budget saving suggestions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![dashboard-1](https://github.com/user-attachments/assets/6d08c70a-b9f8-49ca-af67-91161e9c58a6)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![dashboard-2](https://github.com/user-attachments/assets/7ea33523-e3ce-4bcc-bbb9-58eb1a8981bc)
 
-### `npm test`
+![dashboard-](https://github.com/user-attachments/assets/aa332728-f870-4ff6-a3a9-ce5c159b71a1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
