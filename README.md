@@ -14,15 +14,25 @@ Features under Development:
 2. Friends Zone group spendings module is yet to be completed.
 3. A Financial assistant chatbot levaraging artificial intelligence and machine learning that helps the user in getting financial assistance and budget saving suggestions
 
+## Screenshots of the platform
+
+1. User Dashboard:
+
+![dashboard-main](https://github.com/user-attachments/assets/b3d614ff-1fa3-4341-9960-39876620990f)
+
+2. Expenses Module
+
 ![dashboard-1](https://github.com/user-attachments/assets/6d08c70a-b9f8-49ca-af67-91161e9c58a6)
 
+3. Goal Tracker
+   
 ![dashboard-2](https://github.com/user-attachments/assets/7ea33523-e3ce-4bcc-bbb9-58eb1a8981bc)
+
+4. Add friends and create groups Module
 
 ![dashboard-](https://github.com/user-attachments/assets/aa332728-f870-4ff6-a3a9-ce5c159b71a1)
 
+5. Expeasy Genie: That answers all the questions about user's expenses and predicts future expenses
+
 ![chatbot-screenshot](https://github.com/user-attachments/assets/2acef736-8139-47e4-ae5e-937f87b32be2)
-
-
-
-   
 
