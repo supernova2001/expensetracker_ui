@@ -20,6 +20,7 @@ Features under Development:
 
 ![dashboard-](https://github.com/user-attachments/assets/aa332728-f870-4ff6-a3a9-ce5c159b71a1)
 
+![chatbot-screenshot](https://github.com/user-attachments/assets/2acef736-8139-47e4-ae5e-937f87b32be2)
 
 
 
